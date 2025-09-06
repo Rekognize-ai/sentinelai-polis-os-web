@@ -3,6 +3,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Shield, Zap, Network, Cpu, Eye, Radio } from "lucide-react";
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 import heroImage from "@/assets/hero-police-ev.jpg";
 import droneImage from "@/assets/drone-deployment.jpg";
 
@@ -245,6 +246,8 @@ const Index = () => {
           </div>
         </div>
       </section>
+      
+      <Footer />
     </div>
   );
 };

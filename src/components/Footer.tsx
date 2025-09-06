@@ -1,0 +1,54 @@
+const Footer = () => {
+  return (
+    <footer className="bg-card border-t border-border">
+      <div className="container mx-auto px-6 py-12">
+        <div className="grid md:grid-cols-3 gap-8 items-start">
+          {/* Left: Logo */}
+          <div className="flex items-center">
+            <img 
+              src="/lovable-uploads/9233d5ac-51c6-4f6b-afc0-fedf2413223d.png" 
+              alt="SentinelAI Technologies Inc." 
+              className="h-8 w-auto"
+            />
+          </div>
+          
+          {/* Center: Contact Information */}
+          <div className="text-center">
+            <h3 className="font-semibold mb-4 text-foreground">Contact Information</h3>
+            <div className="space-y-2 text-muted-foreground">
+              <p>2050 15th Street, Suite 312</p>
+              <p>Detroit, MI 48216, USA</p>
+              <p>
+                <a href="mailto:info@sentinelhq.co" className="hover:text-primary transition-colors">
+                  info@sentinelhq.co
+                </a>
+              </p>
+            </div>
+          </div>
+          
+          {/* Right: Quick Links */}
+          <div className="text-right md:text-right text-left">
+            <h3 className="font-semibold mb-4 text-foreground">Quick Links</h3>
+            <div className="space-y-2">
+              <div><a href="#about" className="text-muted-foreground hover:text-primary transition-colors">About</a></div>
+              <div><a href="#innovations" className="text-muted-foreground hover:text-primary transition-colors">Technology</a></div>
+              <div><a href="#" className="text-muted-foreground hover:text-primary transition-colors">Media</a></div>
+              <div><a href="#contact" className="text-muted-foreground hover:text-primary transition-colors">Contact</a></div>
+              <div><a href="#" className="text-muted-foreground hover:text-primary transition-colors">Privacy</a></div>
+              <div><a href="#" className="text-muted-foreground hover:text-primary transition-colors">Terms</a></div>
+            </div>
+          </div>
+        </div>
+        
+        {/* Bottom Copyright */}
+        <div className="border-t border-border mt-8 pt-8 text-center">
+          <p className="text-muted-foreground text-sm">
+            © 2025 SentinelAI Technologies Inc. All Rights Reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;

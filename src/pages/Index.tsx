@@ -2,14 +2,17 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Shield, Zap, Network, Cpu, Eye, Radio } from "lucide-react";
+import Header from "@/components/Header";
 import heroImage from "@/assets/hero-police-ev.jpg";
 import droneImage from "@/assets/drone-deployment.jpg";
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-background text-foreground">
+      <Header />
+      
       {/* Hero Section */}
-      <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+      <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">{/* Added pt-20 for header spacing */}
         <div 
           className="absolute inset-0 z-0"
           style={{
@@ -39,7 +42,7 @@ const Index = () => {
       </section>
 
       {/* About Section */}
-      <section className="py-20 bg-card">
+      <section id="about" className="py-20 bg-card">
         <div className="container mx-auto px-6">
           <div className="grid md:grid-cols-2 gap-12 max-w-6xl mx-auto">
             <div>
@@ -62,7 +65,7 @@ const Index = () => {
       </section>
 
       {/* What We're Building */}
-      <section className="py-20 bg-background">
+      <section id="features" className="py-20 bg-background">
         <div className="container mx-auto px-6">
           <h2 className="text-4xl font-bold text-center mb-16 text-foreground">
             What We're Building
@@ -111,7 +114,7 @@ const Index = () => {
       </section>
 
       {/* Key Innovations */}
-      <section className="py-20 bg-card">
+      <section id="innovations" className="py-20 bg-card">
         <div className="container mx-auto px-6">
           <div className="grid md:grid-cols-2 gap-16 max-w-6xl mx-auto">
             <div>
@@ -210,7 +213,7 @@ const Index = () => {
       </section>
 
       {/* Call to Action */}
-      <section className="py-20 bg-hero-gradient">
+      <section id="contact" className="py-20 bg-hero-gradient">
         <div className="container mx-auto px-6 text-center">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-4xl md:text-5xl font-bold mb-8 text-foreground">

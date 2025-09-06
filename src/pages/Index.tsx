@@ -3,7 +3,6 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Shield, Zap, Network, Cpu, Eye, Radio } from "lucide-react";
 import heroImage from "@/assets/hero-police-ev.jpg";
-import dashboardImage from "@/assets/dashboard-ui.jpg";
 import droneImage from "@/assets/drone-deployment.jpg";
 
 const Index = () => {
@@ -182,7 +181,7 @@ const Index = () => {
             <div className="group">
               <div className="rounded-xl overflow-hidden shadow-premium group-hover:shadow-neon transition-all duration-500">
                 <img 
-                  src={dashboardImage} 
+                  src="/lovable-uploads/73cfa5b6-a976-44a9-90b6-fff0a22f01ab.png" 
                   alt="POLIS OS Dashboard Interface" 
                   className="w-full h-auto group-hover:scale-105 transition-transform duration-500"
                 />

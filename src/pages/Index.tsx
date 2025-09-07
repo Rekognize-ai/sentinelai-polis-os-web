@@ -30,11 +30,11 @@ const Index = () => {
               Powered by <span className="text-primary font-semibold">POLIS OS</span> — Patent Pending
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button variant="hero" size="lg" className="text-lg px-8 py-4">
-                Request Early Access
+              <Button variant="hero" size="lg" className="text-lg px-8 py-4" asChild>
+                <a href="/contact">Request Early Access</a>
               </Button>
-              <Button variant="secondary" size="lg" className="text-lg px-8 py-4">
-                Join the Waitlist
+              <Button variant="secondary" size="lg" className="text-lg px-8 py-4" asChild>
+                <a href="/contact">Join the Waitlist</a>
               </Button>
             </div>
           </div>

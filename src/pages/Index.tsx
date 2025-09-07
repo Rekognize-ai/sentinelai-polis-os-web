@@ -5,7 +5,6 @@ import { Shield, Zap, Network, Cpu, Eye, Radio } from "lucide-react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import heroImage from "@/assets/hero-police-ev.jpg";
-import droneImage from "@/assets/drone-deployment.jpg";
 
 const Index = () => {
   return (
@@ -199,7 +198,7 @@ const Index = () => {
             <div className="group">
               <div className="rounded-xl overflow-hidden shadow-premium group-hover:shadow-neon transition-all duration-500">
                 <img 
-                  src={droneImage} 
+                  src="/lovable-uploads/c0d2b7b4-a4e7-4bb8-9fc4-009fd14d83e1.png" 
                   alt="Automated Drone Deployment" 
                   className="w-full h-auto group-hover:scale-105 transition-transform duration-500"
                 />
@@ -238,7 +237,6 @@ const Index = () => {
             <div className="text-sm text-muted-foreground">
               <p className="mb-4">Trusted by law enforcement professionals nationwide</p>
               <div className="flex justify-center items-center gap-8 flex-wrap">
-                <span className="px-4 py-2 bg-card/50 rounded border">IACP 2024</span>
                 <span className="px-4 py-2 bg-card/50 rounded border">Police Technology</span>
                 <span className="px-4 py-2 bg-card/50 rounded border">Law Enforcement Today</span>
               </div>

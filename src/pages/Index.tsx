@@ -198,14 +198,14 @@ const Index = () => {
             <div className="group">
               <div className="rounded-xl overflow-hidden shadow-premium group-hover:shadow-neon transition-all duration-500">
                 <img 
-                  src="/lovable-uploads/c0d2b7b4-a4e7-4bb8-9fc4-009fd14d83e1.png" 
-                  alt="Automated Drone Deployment" 
+                  src="/lovable-uploads/2388e1a9-539a-4c6e-8fe9-1a36fd9999c1.png" 
+                  alt="Innovative AI-powered patrol vehicle" 
                   className="w-full h-auto group-hover:scale-105 transition-transform duration-500"
                 />
               </div>
-              <h3 className="text-xl font-bold mt-6 mb-3 text-center">Automated Drone Deployment</h3>
+              <h3 className="text-xl font-bold mt-6 mb-3 text-center">Innovative AI-powered patrol vehicle</h3>
               <p className="text-muted-foreground text-center">
-                Seamless drone deployment from the vehicle for aerial surveillance and tactical support operations.
+                SentinelAI is at the forefront of innovation with its AI-powered electric patrol vehicle, transforming law enforcement methods with advanced technology
               </p>
             </div>
           </div>

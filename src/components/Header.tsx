@@ -29,11 +29,11 @@ const Header = () => {
           </nav>
 
           <div className="flex items-center space-x-4">
-            <Button variant="ghost" className="hidden sm:inline-flex">
-              Join Waitlist
+            <Button variant="ghost" className="hidden sm:inline-flex" asChild>
+              <a href="/contact">Join Waitlist</a>
             </Button>
-            <Button variant="hero">
-              Request Access
+            <Button variant="hero" asChild>
+              <a href="/contact">Request Access</a>
             </Button>
           </div>
         </div>

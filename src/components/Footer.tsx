@@ -6,9 +6,9 @@ const Footer = () => {
           {/* Left: Logo */}
           <div className="flex items-center">
             <img 
-              src="/lovable-uploads/d8617f12-2a89-4ea4-82bc-785676bd2c69.png" 
+              src="/lovable-uploads/0a00b86a-7fa2-476f-93e8-e239d171ba54.png" 
               alt="SentinelAI Technologies Inc." 
-              className="h-8 w-auto"
+              className="h-8 w-auto brightness-110 drop-shadow-sm"
             />
           </div>
           

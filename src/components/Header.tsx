@@ -7,7 +7,7 @@ const Header = () => {
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-2">
             <img 
-              src="/lovable-uploads/0a00b86a-7fa2-476f-93e8-e239d171ba54.png" 
+              src="/lovable-uploads/d7db57b4-3b85-48a2-9f96-348f2b9cab67.png" 
               alt="SentinelAI Logo" 
               className="h-8 w-auto brightness-125 contrast-125 drop-shadow-lg"
             />

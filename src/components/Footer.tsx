@@ -4,11 +4,11 @@ const Footer = () => {
       <div className="container mx-auto px-6 py-12">
         <div className="grid md:grid-cols-3 gap-8 items-start">
           {/* Left: Logo */}
-          <div className="flex items-center">
+          <div className="flex items-center justify-center md:justify-start py-4">
             <img 
               src="/lovable-uploads/d7db57b4-3b85-48a2-9f96-348f2b9cab67.png" 
               alt="SentinelAI Technologies Inc." 
-              className="h-8 w-auto brightness-110 drop-shadow-sm"
+              className="h-9 w-auto brightness-110 drop-shadow-sm"
             />
           </div>
           

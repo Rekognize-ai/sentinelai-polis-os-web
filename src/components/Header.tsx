@@ -5,11 +5,11 @@ const Header = () => {
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-lg border-b border-border shadow-lg">
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <div className="flex items-center space-x-2">
+          <div className="flex items-center space-x-2 py-4">
             <img 
               src="/lovable-uploads/d7db57b4-3b85-48a2-9f96-348f2b9cab67.png" 
               alt="SentinelAI Logo" 
-              className="h-8 w-auto brightness-125 contrast-125 drop-shadow-lg"
+              className="h-9 md:h-11 lg:h-14 w-auto brightness-125 contrast-125 drop-shadow-lg"
             />
           </div>
           

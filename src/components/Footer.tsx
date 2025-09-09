@@ -13,7 +13,7 @@ const Footer = () => {
           </div>
           
           {/* Center: Contact Information */}
-          <div id="contact" className="text-center">
+          <div id="contact-info" className="text-center">
             <h3 className="font-semibold mb-4 text-foreground">Contact Information</h3>
             <div className="space-y-2 text-muted-foreground">
               <p>2050 15th Street, Suite 312</p>
@@ -33,7 +33,7 @@ const Footer = () => {
               <div><a href="#about" className="text-muted-foreground hover:text-primary transition-colors">About</a></div>
               <div><a href="#innovations" className="text-muted-foreground hover:text-primary transition-colors">Technology</a></div>
               <div><a href="#" className="text-muted-foreground hover:text-primary transition-colors">Media</a></div>
-              <div><a href="#contact" className="text-muted-foreground hover:text-primary transition-colors">Contact</a></div>
+              <div><a href="#contact-info" className="text-muted-foreground hover:text-primary transition-colors">Contact</a></div>
               <div><a href="#" className="text-muted-foreground hover:text-primary transition-colors">Privacy</a></div>
               <div><a href="#" className="text-muted-foreground hover:text-primary transition-colors">Terms</a></div>
             </div>

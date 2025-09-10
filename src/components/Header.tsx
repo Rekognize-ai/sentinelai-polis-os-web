@@ -9,7 +9,7 @@ const Header = () => {
             <img 
               src="/lovable-uploads/d7db57b4-3b85-48a2-9f96-348f2b9cab67.png" 
               alt="SentinelAI Logo" 
-              className="h-9 md:h-11 lg:h-14 w-auto brightness-125 contrast-125 drop-shadow-lg"
+              className="h-12 md:h-14 lg:h-16 w-auto brightness-125 contrast-125 drop-shadow-lg"
             />
           </div>
           

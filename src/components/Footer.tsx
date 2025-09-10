@@ -8,7 +8,7 @@ const Footer = () => {
             <img 
               src="/lovable-uploads/d7db57b4-3b85-48a2-9f96-348f2b9cab67.png" 
               alt="SentinelAI Technologies Inc." 
-              className="h-12 w-auto brightness-110 drop-shadow-sm"
+              className="h-16 w-auto brightness-110 drop-shadow-sm"
             />
           </div>
           

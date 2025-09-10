@@ -1,3 +1,5 @@
+import { Linkedin } from 'lucide-react';
+
 const Footer = () => {
   return (
     <footer className="bg-card border-t border-border">
@@ -47,9 +49,22 @@ const Footer = () => {
         
         {/* Bottom Copyright */}
         <div className="border-t border-border mt-8 pt-8 text-center">
-          <p className="text-muted-foreground text-sm">
-            © 2025 SentinelAI Technologies Inc. All Rights Reserved.
-          </p>
+          <div className="flex flex-col items-center gap-4">
+            <div className="flex items-center gap-4">
+              <a 
+                href="https://www.linkedin.com/company/sentinelhq/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-muted-foreground hover:text-primary transition-colors"
+                aria-label="Follow us on LinkedIn"
+              >
+                <Linkedin size={24} />
+              </a>
+            </div>
+            <p className="text-muted-foreground text-sm">
+              © 2025 SentinelAI Technologies Inc. All Rights Reserved.
+            </p>
+          </div>
         </div>
       </div>
     </footer>

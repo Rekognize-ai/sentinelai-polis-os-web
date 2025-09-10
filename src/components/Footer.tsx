@@ -7,7 +7,7 @@ const Footer = () => {
           <div className="flex items-center justify-center md:justify-start py-4">
             <img 
               src="/lovable-uploads/d7db57b4-3b85-48a2-9f96-348f2b9cab67.png" 
-              alt="SentinelAI Technologies Inc." 
+              alt="SentinelAI Technologies LLC" 
               className="h-16 w-auto brightness-110 drop-shadow-sm"
             />
           </div>
@@ -48,7 +48,7 @@ const Footer = () => {
         {/* Bottom Copyright */}
         <div className="border-t border-border mt-8 pt-8 text-center">
           <p className="text-muted-foreground text-sm">
-            © 2025 SentinelAI Technologies Inc. All Rights Reserved.
+            © 2025 SentinelAI Technologies LLC. All Rights Reserved.
           </p>
         </div>
       </div>

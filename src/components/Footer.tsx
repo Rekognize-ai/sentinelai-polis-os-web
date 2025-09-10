@@ -1,5 +1,3 @@
-import { Linkedin } from 'lucide-react';
-
 const Footer = () => {
   return (
     <footer className="bg-card border-t border-border">
@@ -30,17 +28,6 @@ const Footer = () => {
                   info@sentinelhq.co
                 </a>
               </p>
-              <div className="flex justify-center mt-4">
-                <a 
-                  href="https://www.linkedin.com/company/sentinelhq/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-muted-foreground hover:text-primary transition-colors"
-                  aria-label="Follow us on LinkedIn"
-                >
-                  <Linkedin size={24} />
-                </a>
-              </div>
             </div>
           </div>
           

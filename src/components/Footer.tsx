@@ -19,6 +19,11 @@ const Footer = () => {
               <p>2050 15th Street, Suite 312</p>
               <p>Detroit, MI 48216, USA</p>
               <p>
+                <a href="tel:+17344727851" className="hover:text-primary transition-colors">
+                  (734) 472-7851
+                </a>
+              </p>
+              <p>
                 <a href="mailto:info@sentinelhq.co" className="hover:text-primary transition-colors">
                   info@sentinelhq.co
                 </a>

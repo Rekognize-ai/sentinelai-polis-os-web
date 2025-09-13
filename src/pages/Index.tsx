@@ -34,7 +34,7 @@ const Index = () => {
                 <a href="/request-access">Request Early Access</a>
               </Button>
               <Button variant="secondary" size="lg" className="text-lg px-8 py-4" asChild>
-                <a href="/request-access">Join the Waitlist</a>
+                <a href="/contact">Join the Waitlist</a>
               </Button>
             </div>
           </div>

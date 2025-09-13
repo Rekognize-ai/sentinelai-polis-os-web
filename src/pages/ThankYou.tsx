@@ -2,11 +2,15 @@ import React from 'react';
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { Check } from "lucide-react";
+import Header from "@/components/Header";
 
 const ThankYou = () => {
   return (
-    <div className="min-h-screen bg-background flex items-center justify-center px-6">
-      <div className="max-w-2xl mx-auto text-center">
+    <div className="min-h-screen bg-background">
+      <Header />
+      
+      <div className="flex items-center justify-center px-6 pt-32 pb-20">
+        <div className="max-w-2xl mx-auto text-center">
         {/* Success Icon */}
         <div className="mb-8 flex justify-center">
           <div className="w-16 h-16 rounded-full border-2 border-green-500 flex items-center justify-center">
@@ -46,6 +50,7 @@ const ThankYou = () => {
             info@sentinelhq.co
           </a>
         </p>
+        </div>
       </div>
     </div>
   );

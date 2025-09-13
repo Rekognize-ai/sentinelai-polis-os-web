@@ -4,8 +4,8 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { useToast } from "@/hooks/use-toast";
-import { Home } from "lucide-react";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
+import Header from "@/components/Header";
 
 interface FormData {
   fullName: string;
@@ -39,23 +39,7 @@ const RequestAccess = () => {
 
   return (
     <div className="min-h-screen bg-background">
-      {/* Header */}
-      <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
-        <div className="container mx-auto px-6 py-4">
-          <div className="flex items-center justify-between">
-            <Link to="/" className="flex items-center">
-              <img 
-                src="/lovable-uploads/d7db57b4-3b85-48a2-9f96-348f2b9cab67.png" 
-                alt="SentinelAI Technologies LLC" 
-                className="h-16 md:h-20 lg:h-24 w-auto brightness-110 drop-shadow-sm"
-              />
-            </Link>
-            <Link to="/" className="text-foreground hover:text-primary transition-colors">
-              <Home className="h-6 w-6" />
-            </Link>
-          </div>
-        </div>
-      </header>
+      <Header />
 
       {/* Main Content */}
       <section className="pt-32 pb-20 px-6">

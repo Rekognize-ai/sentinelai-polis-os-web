@@ -31,10 +31,10 @@ const Index = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button variant="hero" size="lg" className="text-lg px-8 py-4" asChild>
-                <a href="/contact">Request Early Access</a>
+                <a href="/request-access">Request Early Access</a>
               </Button>
               <Button variant="secondary" size="lg" className="text-lg px-8 py-4" asChild>
-                <a href="/contact">Join the Waitlist</a>
+                <a href="/request-access">Join the Waitlist</a>
               </Button>
             </div>
           </div>

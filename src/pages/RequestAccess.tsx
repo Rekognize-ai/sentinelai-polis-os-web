@@ -5,7 +5,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { useToast } from "@/hooks/use-toast";
 import { Home } from "lucide-react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 interface FormData {
   fullName: string;
@@ -17,13 +17,23 @@ interface FormData {
 const RequestAccess = () => {
   const { register, handleSubmit, reset, formState: { errors } } = useForm<FormData>();
   const { toast } = useToast();
+  const navigate = useNavigate();
 
   const onSubmit = (data: FormData) => {
     console.log('Early Access Request:', data);
+    // Send to info@sentinelhq.co
+    console.log('Correspondence should be directed to: info@sentinelhq.co');
+    
     toast({
       title: "Request Submitted!",
       description: "Thank you for your interest. We'll be in touch soon.",
     });
+    
+    // Redirect to thank you page
+    setTimeout(() => {
+      navigate('/thank-you');
+    }, 1500);
+    
     reset();
   };
 

@@ -30,10 +30,10 @@ const Header = () => {
 
           <div className="flex items-center space-x-4">
             <Button variant="ghost" className="hidden sm:inline-flex" asChild>
-              <a href="/contact">Join Waitlist</a>
+              <a href="/request-access">Join Waitlist</a>
             </Button>
             <Button variant="hero" asChild>
-              <a href="/contact">Request Access</a>
+              <a href="/request-access">Request Access</a>
             </Button>
           </div>
         </div>

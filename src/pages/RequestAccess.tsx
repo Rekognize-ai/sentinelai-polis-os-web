@@ -42,7 +42,7 @@ const RequestAccess = () => {
       <Header />
 
       {/* Main Content */}
-      <section className="pt-32 pb-20 px-6">
+      <section className="pt-40 md:pt-44 lg:pt-48 px-6 pb-20">
         <div className="container mx-auto max-w-md">
           <div className="text-center mb-12">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6">
